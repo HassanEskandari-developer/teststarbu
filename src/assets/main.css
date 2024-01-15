@@ -1,0 +1,19 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.overlay-f {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, transparent, rgb(0 0 0 / 72%) 120%);
+    width: 100%;
+    min-height: 2rem;
+    transition: .5s ease;
+}
+
+textarea {
+    resize: none;
+}
